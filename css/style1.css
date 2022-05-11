@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+.new-nav-brand {
+    font-family: 'Lato', sans-serif !important;
+    font-size: 25px !important;
+    font-weight: 900 !important;
+}
+
+.nav-item .nav-link {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.bg-teal {
+    background-color: #0d9236 !important;
+}
+
+.btn-tealer {
+    background-color: #0d9236 !important;
+    color: white !important;
+    font-weight: 500 !important;
+}
+
+.btn-tealer:hover {
+    color: #e6f1e997 !important;
+}
+
+.text-teal {
+    color: #0d9236 !important;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 60vh;
+    object-fit: cover;
+    object-position: center;
+}
+
+.for-image {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.carousel-caption h5 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.carousel-caption p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.search-heading {
+    font-weight: 400 !important;
+}
+
+.visiting-spot-section {
+    background-color: #aaa;
+}
+
+
+.card-body p {
+    color: #555;
+    font-weight: 500;
+}
+
+.PPR-1 h2 {
+    font-weight: 500;
+    color: #0d9236;
+}
+
+.PPR-1 p {
+    font-size: 18px;
+    font-weight: 500;
+    color: #555;
+}
+
+.follow-heading {
+    font-weight: 500 !important;
+}
+
+.gallary-heading {
+    font-weight: 500 !important;
+}
+
+.gallary-p {
+    font-weight: 500 !important;
+    color: #555;
+}
+
+.luffy {
+    font-weight: 400;
+}
+
+@media (max-width:576px) {
+    .carousel-caption {
+        bottom: 20px;
+    }
+
+    .carousel-caption h5 {
+        font-size: 30px;
+    }
+
+    .carousel-caption p {
+        display: none;
+    }
+
+    .carousel-caption button {
+        display: none;
+    }
+
+    .search-section {
+        text-align: center;
+    }
+
+    .card {
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+
+    .gallary-pic {
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+
+    .gallary-row {
+        margin-top: 30px;
+    }
+}
